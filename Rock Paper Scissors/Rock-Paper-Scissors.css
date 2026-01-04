@@ -1,0 +1,106 @@
+
+    
+    /* ===== Base ===== */
+    body {
+      background-color: rgb(25, 25, 25);
+      color: white;
+      font-family: Arial;
+      
+    }
+    /* ===== Title ===== */
+    .title{
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    /* ===== Moves ===== */
+    .moves {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: left;
+    }
+    /* ===== Icon ===== */
+    .move-icon{
+      height: 50px;
+    }
+    /* ===== Buttons ===== */
+    .move-button{
+      background-image: linear-gradient(to right, #663399, #8853bd);
+      border: 3px solid white;
+      width: 7rem;
+      height: 7rem;
+      border-radius: 50%;
+      margin-right: 10px;
+      cursor: pointer; 
+    }
+     /* ===== Result ===== */
+    .result {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-top: 50px;
+    }
+    
+    .score{
+      margin-top: 60px;
+    }
+
+    .reset-score-button{
+      background-image: linear-gradient(to right, #663399, #8853bd);
+      border-radius: 30px;
+      border: 0;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+      color: #fff;
+      cursor: pointer;
+      padding: 15px 25px;
+      margin-top: 15px;
+    }
+     /* ===== Move buttons + Result ===== */
+    .game-layout {
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+      margin-top: 2rem;
+      flex-wrap: wrap;
+    }
+    /* ===== Result ===== */
+    .Result{
+      width: 100%;
+      flex-wrap: wrap;
+      padding: 1.5rem;
+      height: auto;
+      position: static;
+      
+      border: 3px solid white;
+      background-image: linear-gradient(to right, #663399, #8853bd);
+      border-radius: 10px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.3);  
+      text-align: center;
+    }
+
+     /* ===== Result (table) ===== */
+    table {
+      font-family: Arial;
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 60%;
+      margin-top: 50px;
+      margin-left:5px;
+    
+    }
+
+    td, th {
+      border-style: solid;
+      text-align: left; 
+      padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-image: linear-gradient(to right, #663399, #8853bd);   
+    }
+
+    /* ===== Result (table (total games)) ===== */
+    .total-games {
+      background-image: linear-gradient(to right, #3f3399, #53bd83);   
+    }
+    
+
